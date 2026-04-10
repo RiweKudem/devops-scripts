@@ -1,0 +1,26 @@
+{
+  "status": "ok",
+  "timestamp": "2024-10-27T10:00:00Z",
+  "service": "devops-scripts",
+  "version": "1.2.3",
+  "environment": "production",
+  "dependencies": {
+    "database": {
+      "status": "ok",
+      "response_time_ms": 15
+    },
+    "cache": {
+      "status": "ok",
+      "response_time_ms": 5
+    },
+    "message_queue": {
+      "status": "ok",
+      "response_time_ms": 2
+    }
+  },
+  "metrics": {
+    "cpu_usage": 0.25,
+    "memory_usage": 0.60,
+    "disk_space_available": "50GB"
+  }
+}
